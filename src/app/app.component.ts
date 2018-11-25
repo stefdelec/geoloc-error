@@ -58,6 +58,7 @@ export class MyApp {
                   }
                 });
               } else {
+                
                 this.geo.getCurrentPosition({timeout: 30000, maximumAge: 0, enableHighAccuracy: true}).then(pos => {
                   resolve({
                     coords: {
