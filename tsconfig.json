@@ -14,7 +14,8 @@
     "target": "es5"
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "node_modules/cordova.plugins.diagnostic/cordova.plugins.diagnostic.d.ts"
   ],
   "exclude": [
     "node_modules",
