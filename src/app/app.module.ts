@@ -36,8 +36,6 @@ import {SplashScreen} from '@ionic-native/splash-screen';
   providers: [
     Geolocation,
     StatusBar,
-    LocationAccuracy,
-    Diagnostic,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
